@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Deal Or No Deal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <header>
+        <div id="nav-container">
+            <nav
+                class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white  border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a href="~/Home/index"><img src="~/img/LOGO.png" width="9%"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Juego"
+                                    asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark disabled" asp-area="" asp-controller="Home"
+                                    asp-action="Privacy">Disabled</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Juego"
+                                    asp-action="ResetGame">Reset</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Juego"
+                                    asp-action="test">Test</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+		<div class="animation-area">
+		<ul class="box-area">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+    <footer class="footer bg-footer text-muted">
+        <div class="container-fluid">
+            <div class="float-left text-footer text-white font-weight-bold">
+                Trabajo realizado por: Sebastián (Pochi) Biorci, Tobías Perel y Nicolás Fishman 
+                <i class="icon fa fa-python fa-3x"></i>
+            </div>
+            <a hr   ef="https://www.youtube.com/watch?v=0ZRK0f5GJRc" class="float-right" target="_blank"><i
+                    class="icon fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/watch?v=0ZRK0f5GJRc" class="mr-2 float-right" target="_blank"><i
+                    class="icon fa fa-whatsapp fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/watch?v=0ZRK0f5GJRc" class="mr-2 float-right" target="_blank"><i
+                    class="icon fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/watch?v=0ZRK0f5GJRc" class="mr-2 float-right" target="_blank"><i
+                    class="icon fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+@* <div class="text-center">
+    <h1>AGREGAR PIZZA</h1>
+
+    <form method="POST" class="form" action='@Url.Action("AgregarIngredientesForm","Home")'>
+
+
+    <div class="field name-box">
+    <label for="nombre">Nombre del ingrediente</label>
+    <input type="text" id="name" name="nombre" class="form-control" placeholder="Nombre" required />
+    </div>
+
+    <div class="field msg-box">
+    <label for="url_foto">URL del ingrediente</label>
+    <input type="url" rows="4" class="form-control" placeholder="www.foto.com" name="foto" required></input>
+    </div>
+
+    <input class="btn btn-success mt-2" type="submit" value="Agregar" />
+    </form>
+    </div> *@
+
+<form method="POST" enctype="multipart/form-data" class="my-form"
+    action='@Url.Action("AgregarIngredientesForm","Home")'>
+    <div class="container">
+        <h1 class="text-center">Agregar Ingrediente</h1>
+        <ul>
+            <li class="grid mt-4">
+                <input type="text" placeholder="Nombre" name="nombre" required>
+            </li>
+            <li class="grid mt-4">
+                <input type="url" name="foto" placeholder="Url de la foto" required>
+            </li>
+            @if (ViewBag.error)
+            {
+                <div class="alert alert-warning mt-2 align-items-center" role="alert">
+                    <p>@ViewBag.mensajeError</p>
+                </div>
+            }
+            <li class="grid">
+                <input class="btn btn-success mt-2" type="submit" value="Agregar" />
+            </li>
+        </ul>
+    </div>
+</form>

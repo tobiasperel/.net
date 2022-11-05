@@ -1,0 +1,260 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+@font-face {
+	font-family: casino;
+	src: url("../fonts/casino.shadow-regular.ttf");
+}
+
+a.navbar-brand {
+	white-space: normal;
+	word-break: break-all;
+}
+
+a .icon{
+	color: white;
+	transition:0.8s;
+}
+a .icon:hover{
+	color: rgb(252, 161, 232);
+	transition:0.8s;
+}
+
+.fa{
+	filter:drop-shadow(126px 20px 34px 24px rgba(0,0,0,0.9))
+}
+
+.text-footer{
+	font-size: 1rem;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+	color: #0366d6;
+}
+
+.bg-footer{
+	/* background: rgb(0,0,0); */
+	background: linear-gradient(0deg, rgb(95, 4, 4) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #1b6ec2;
+	border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color: #fff;
+	background-color: #1b6ec2;
+	border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	font-size: 14px;
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+.border-top {
+	border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+	box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+	font-size: 1rem;
+	line-height: inherit;
+}
+
+
+.btn-large{
+	--multiplier: 3;
+	padding:calc(.5rem * var(--multiplier)) calc(1rem * var(--multiplier));
+	font-size:calc(1.25rem * var(--multiplier));
+	line-height:1.5;
+	border-radius:calc(.3rem * var(--multiplier))
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+	background: linear-gradient( .95turn, #e95b5b, #868fec)
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	white-space: nowrap;
+	line-height: 60px;
+	/* Vertically center the text there */
+}
+
+.py-2ymedio{
+	padding-bottom: 1rem!important;
+	padding-top: 0.5rem!important;
+}
+.maletinWidth{
+	width: 10vw
+}
+.cartelWidth{
+	width: 11vw;
+}
+
+.criptoAbierto{
+	position: absolute;
+	width: 11%;
+	margin-top: 1%;
+	margin-left: -14%;
+	z-index: 5;
+}
+
+@media (max-width:426px) {
+	.maletinWidth{
+		width: 32%
+	}
+	.cartelWidth{
+		width: 90%
+	}
+	.criptoAbierto{
+	position: absolute;
+	width: 20%;
+	margin-top: 3%;
+	margin-left: -26%;
+	z-index: 5;
+	}	
+	.btn-large{
+		--multiplier: 1.5;
+		padding:calc(.5rem * var(--multiplier)) calc(1rem * var(--multiplier));
+		font-size:calc(1.25rem * var(--multiplier));
+		line-height:1.5;
+		border-radius:calc(.3rem * var(--multiplier));
+	}	
+}
+
+.texto-deal{
+	font-family: casino;
+}
+
+.maletinAbierto{
+	z-index: -5;
+}
+
+
+.btn-oferta{
+	background: rgb(154,126,64);
+	background: linear-gradient(45deg, rgba(154,126,64,1) 0%, rgba(240,206,116,1) 50%, rgba(154,126,64,1) 100%);
+	font-family: casino;
+	/* width: 50%; */
+}
+
+
+/*MALETIN ELEGIDO*/
+
+.dark-glow{
+	filter: drop-shadow(0 0 3rem rgb(17, 17, 17));
+	transition: 1s;
+}
+.dark-glow:hover{
+	filter: drop-shadow(0 0 2rem rgb(8, 8, 8));
+}
+
+
+.golden-glow{
+	filter: drop-shadow(0 0 2rem rgb(246, 242, 220));
+	transition: 1s;
+}
+.golden-glow:hover{
+	filter: drop-shadow(0 0 2rem rgb(245, 242, 53));
+}
+
+.golden-glow-pick{
+	filter: drop-shadow(0 0 0rem rgb(128, 128, 128));
+	transition: 0.5s;
+}
+
+.golden-glow-pick:hover{
+	filter: drop-shadow(0 0 2rem rgb(245, 242, 53));
+}
+
+/*ANIMACION FONDO*/
+
+.box-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: -3;
+}
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	z-index: -3;
+}
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}

@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "FINAL!!";
+}
+
+<div class="container mt-5">
+    <p class="fade-in-fwd text-center">
+        El Diegote, desde las nubes te dio el 5!
+    </p>
+
+    <div id="fotuli" class="text-center">
+        <img src="~/img/caja_fuerte_cerrada.png" class="mb-3" alt="Caja Fuerte">
+    </div>
+
+    <form method="POST" name="myForm" action="@Url.Action("inputFinalRespuesta","Escape")">
+        @for (int i = 0; i < 4; i++)
+        {
+            string id = "input" + (i + 1).ToString();
+            string name = id + "name";
+            string holder = "Respuesta de la sala " + (i + 1).ToString();
+            <input type="number" name="@name" id=@id class="form-control justify-content-center mb-2"
+            placeholder="@holder" autocomplete="off"></input>
+        }
+
+        <button class="btn btn-success submit ml-2 mt-2" onclick="inputFinal()">Enviar</button>
+    </form>
+    
+
+
+    <div class="row ml-2">
+        <button id="pista10" value="Por si no recordás, la contraseña es 3 0 7 5" class="btn btn-info mt-2 "
+        onclick="showAlert(10)">Pista</button>
+        <div class="alert alert-success alert-dismissible my-2 ml-2" id="alertbox" role="alert" style="display:none;">
+            <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+
+
+</div>

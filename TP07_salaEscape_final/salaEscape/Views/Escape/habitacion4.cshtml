@@ -1,0 +1,46 @@
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-md-8">
+        <p class="fade-in-fwd">
+          La Scaloneta te dijo el 7!
+          <br>
+          Felicitaciones ya casi terminas el desafío. Esta persona desde los 16 años lleva conmoviendo a todos los
+          argentinos y a los zimbabuenses. Lamentablemente desde hace un tiempo solo nos conmueve con sus historias, 
+          pero se lo sigue recordando con alegría. Estabas en el tranvía y una persona lo menciona, ahí te acordas 
+          quien es, ¡Por fin una sala que no necesitas pistas!
+        </p>
+        <form method="POST" action="@Url.Action("Respuesta","Escape", new{Sala = 4})">
+          <input type="color" class="form-control" name="ans" id="ans" aria-describedby="helpId" autocomplete="off">
+          <small id="helpId" class="form-text text-muted">Nombre del Personaje</small>
+          <button class="btn btn-success submit" onclick='formValidation1(4)'>Enviar</button>
+        </form>
+        <div class="row">
+          @for (int i = 0; i < ViewBag.Pistas.Length; i++)
+          {
+            int imasuno = i + 1;
+            Console.WriteLine(ViewBag.Pistas[i]);
+            string ID = "pista" + (@imasuno).ToString();
+
+            <button value="@ViewBag.Pistas[i]" id=@ID onclick="showAlert(@imasuno);" class="btn btn-info mt-2 mx-2"> Pista
+              @imasuno</button>
+          }
+        </div>
+        <div class="row">
+          @for (int i = 0; i < ViewBag.Pistas.Length; i++)
+          {
+            <div class="alert alert-success alert-dismissible my-2" id="alertbox" role="alert" style="display:none;">
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          }
+        </div>
+    </div>
+    <div class="col-md-4" id="fotuli">
+      <img src="~/img/siluetas/Maradona_Negro.png" class="" style="width: 100%;"
+        alt="Personaje 4">
+    </div>
+
+
+  </div>
+</div>

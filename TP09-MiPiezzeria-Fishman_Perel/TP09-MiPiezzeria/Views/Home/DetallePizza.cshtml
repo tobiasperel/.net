@@ -1,0 +1,33 @@
+<div class="text-center pb-5">
+    <h1>Detalle de la pizza @ViewBag.Pizza.Nombre:</h1>
+</div>
+
+<div class="row pt-5">
+    <div class="col-md-6 text-center">
+        <img src="@ViewBag.Pizza.Foto" width=65% />
+    </div>
+    <div class="col-md-6 text-center pt-3">
+        <h2 class="text-success">El precio es: <u>$@ViewBag.Pizza.Precio</u> </h2>
+        <h2 class="text-primary">El tamaño es: <u>@ViewBag.Pizza.Tamano</u></h2>
+        <h2>Los ingredientes son:</h2>
+        <div class="row">
+            @for (int i = 0; i < ViewBag.Ingredientes.Count; i++)
+                {
+                    int colSize = 12 / ViewBag.Ingredientes.Count;
+                    string colText = "col-md-" + colSize;
+                    if(colSize < 4){colText = "col-md-4";}
+                    <div class="py-3 @colText">
+                        <img src="@ViewBag.Ingredientes[i].Foto" width="60%"/>
+                        <li>@ViewBag.Ingredientes[i].Nombre </li>
+                    </div>
+                }
+        </div>
+    </div>
+</div>
+<div class="row justify-content-around mt-5">
+    <a href='@Url.Action("EliminarPizza","Home",new{identacion=ViewBag.Pizza.IdPizza})'>
+        <button class="btn btn-danger">Eliminar Pizza</button>
+    </a>
+    <a href='@Url.Action("EditarPizza","Home",new{identacion=ViewBag.Pizza.IdPizza})'>
+        <button class="btn btn-warning">Editar Pizza</button></a>
+</div>

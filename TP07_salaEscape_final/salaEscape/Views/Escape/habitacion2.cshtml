@@ -1,0 +1,47 @@
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-md-8">
+        <p class="fade-in-fwd">
+          El número brindado por Jorgito era el 3.
+          <br>
+          Este es un personaje reconocido por millones de generaciones. Es reconocido por ser una persona
+          muy polémica, aunque hoy en día debido a todo lo que estamos viviendo se le tiene más compasión.
+          De repente te parece recordar quien es, pero escuchas el ruido del batimóvil pasar cerca de tu
+          casa y se te escapa. ¿Podrás saber quien es y cuando nació?
+        </p>
+        <form method="POST" action="@Url.Action("Respuesta","Escape", new{Sala = 2})">
+          <input type="date" class="form-control" name="ans" id="ans" aria-describedby="helpId" autocomplete="off">
+          <small id="helpId" class="form-text text-muted">Nombre del Personaje</small>
+          <button class="btn btn-success submit" onclick='formValidation1(2)'>Enviar</button>
+        </form>
+        <div class="row">
+          @for (int i = 0; i < ViewBag.Pistas.Length; i++)
+          {
+            int imasuno = i + 1;
+            Console.WriteLine(ViewBag.Pistas[i]);
+            string ID = "pista" + (@imasuno).ToString();
+
+            <button value="@ViewBag.Pistas[i]" id=@ID onclick="showAlert(@imasuno);" class="btn btn-info mt-2 mx-2"> Pista
+              @imasuno</button>
+          }
+        </div>
+        <div class="row">
+          @for (int i = 0; i < ViewBag.Pistas.Length; i++)
+          {
+            <div class="alert alert-success alert-dismissible my-2" id="alertbox" role="alert" style="display:none;">
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          }
+        </div>
+    </div>
+    <div class="col-md-4" id="fotuli">
+      <img src="~/img/siluetas/Mirtha_Negro.png" class="fade-in-fwd" style="width: 100%;"
+        alt="Personaje 2">
+    </div>
+
+
+
+  </div>
+</div>

@@ -1,0 +1,86 @@
+@{
+    ViewData["Title"] = "verJugadores";
+}
+@{
+    string claseColumna = "col-md-4";
+}
+
+<div class="container">
+    @{
+        int contador = 0;
+        string linkWiki = "";
+        string linkBase = "https://es.wikipedia.org/wiki/";
+    }
+    @for (int i = 0; i < ViewBag.Formacion.Length; i++)
+    {
+        <div class="row justify-content-center mb-3">
+
+            @for (int j = 0; j < ViewBag.Formacion[i]; j++)
+            {
+                {
+                    int col = 12 / ViewBag.Formacion[i];
+                    if (col >= 3)
+                    {
+                        col = 3;
+                    }
+                    claseColumna = "col-md-" + col.ToString();
+                    string jugadorLink = ViewBag.Jugadores[contador].Replace(' ', '_');
+                    linkWiki = linkBase + jugadorLink;
+                }
+
+                <div class="@claseColumna">
+                    <div class="card my-3 mx-1" id="cardJugador">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><a href="@linkWiki"
+                            target="_blank">@ViewBag.Jugadores[contador]</a></h5>
+                            <p class="card-text text-center" style="color: gray">
+                                @ViewBag.EquiposJugadores[contador]
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                { contador += 1; }
+            }
+        </div>
+    }
+</div>
+
+<div class="container-fluid pb-5 ">
+    <div class="row">
+        <div class="col-md-4 my-3">
+            <div class="card">
+                <img class="card-img-top" src=@("../img/dts/" + ViewBag.DT_IMG + ".png") alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@ViewBag.DT</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3" style="height: 5fw;">
+
+            <div class="card" id="ul-card-campeon">
+                <h3 class="text-center">Campeón en:</h3>
+                <div class="justify-content-center">
+                <ul class="list-group list-group-flush cardScroll justify-content-center">
+                    @{
+                        int contadorCampeonatos = 0;
+                    }
+                    @foreach(KeyValuePair<string, string> campeon in ViewBag.Campeones){
+                        @if (campeon.Value == ViewBag.CurrentTeam){
+                            <li class="list-group-item li-hover">@campeon.Key</li>
+                            {contadorCampeonatos += 1;}
+                        }  
+                        }
+                    @if (contadorCampeonatos==0){
+                        <h2 class="text-center">Uy! Este equipo nunca salió campeón...</h2>
+                    }
+                    
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3">
+            <img src=@("../img/flag/" + ViewBag.CurrentTeam + ".png") width="100%">
+        </div>
+    </div>
+</div>

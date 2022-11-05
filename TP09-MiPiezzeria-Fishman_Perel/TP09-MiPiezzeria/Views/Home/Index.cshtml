@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center justify-content-center">
+    <h1 class="display-4">La Pizza del Gorrito</h1>
+    @{
+        if (Pizzeria.ListarPizzas().Count != 0)
+        {
+            <table class="table table-dark table-striped table-hover table-responsive-md ml-0">
+                <thead>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Tamaño</th>
+                    <th>Foto</th>
+                    <th></th>
+                    <th></th>
+                </thead>
+                @for (int i = 0; i < Pizzeria.ListarPizzas().Count; i++)
+                {
+                    List<Pizza> ListaPizza = Pizzeria.ListarPizzas();
+                    <tr>
+                        <td>
+                            @((ListaPizza[i].IdPizza)+1)
+                        </td>
+                        <td>
+                            @ListaPizza[i].Nombre
+                        </td>
+                        <td>
+                            $@ListaPizza[i].Precio
+                        </td>
+                        <td>
+                            @ListaPizza[i].Tamano
+                        </td>
+                        <td>
+                            <img src="@ListaPizza[i].Foto" height="50em"/>
+                        </td>
+                        <td>
+                            <a href='@Url.Action("VerPizza","Home",new{identacion=ListaPizza[i].IdPizza})'><button class="btn btn-info">Ver
+                                    Pizza</button></a>
+                        </td>
+                        <td>
+                            <a href='@Url.Action("EliminarPizza","Home",new{identacion=ListaPizza[i].IdPizza})'><button class="btn btn-danger">Eliminar
+                                    Pizza</button></a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        }
+    }
+    <div class="text-center">
+        <a href='@Url.Action("AgregarPizza","Home")'><button class="btn btn-success mt-2">Agregar Pizza</button></a>
+    </div>
+</div>

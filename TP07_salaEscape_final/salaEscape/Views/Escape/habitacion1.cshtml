@@ -1,0 +1,49 @@
+<script>
+  var count = 0;
+</script>
+
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-md-8">
+        <p class="fade-in-fwd">
+          Tenés una imagen muy borrosa de esta personalidad. La recordás con un poco de odio, no tenés buenos recuerdos
+          de él… Hacés el mejor intento por recordar esa silueta y de repente… ¡Se te enciende la lamparita! Te acordás 
+          de cómo se hacía el mafioso en vivo con su amigo Ven… Haces el mejor intento pero no lo recordas. Sin embargo, 
+          la sensación de todo ese dinero en tus manos hace que no te rindas.
+        </p>
+        <form method="POST" name="myForm" action="@Url.Action("Respuesta","Escape", new{Sala = 1})">
+          <input type="text" class="form-control" name="ans" id="ans" aria-describedby="helpId" autocomplete="off">
+          <small id="helpId" class="form-text text-muted">Nombre del Personaje</small>
+          <button class="btn btn-success submit" onclick='formValidation1(1)'>Enviar</button>
+        </form>
+        <div class="row">
+          @for (int i = 0; i < ViewBag.Pistas.Length; i++)
+          {
+            int imasuno = i + 1;
+            @* Console.WriteLine(ViewBag.Pistas[i]); *@
+            string ID = "pista" + (@imasuno).ToString();
+
+            <button value="@ViewBag.Pistas[i]" id=@ID onclick="showAlert(@imasuno);" class="btn btn-info mt-2 mx-2"> Pista
+              @imasuno</button>
+          }
+        </div>
+        <div class="row">
+          @for (int i = 0; i < ViewBag.Pistas.Length; i++)
+          {
+            <div class="alert alert-success alert-dismissible my-2" id="alertbox" role="alert" style="display:none;">
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          }
+        </div>
+    </div>
+
+
+    <div class="col-md-4" id="fotuli">
+      <img src="~/img/siluetas/Rial_Negro.png" class="scale-in-center" style="width: 100%;" alt="Personaje 1">
+    </div>
+  </div>
+</div>
+
+@* action="@Url.Action("Respuesta","Escape", new{Sala = 1})" *@

@@ -1,0 +1,248 @@
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\appsettings.json
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.exe
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.deps.json
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.json
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.dev.json
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.dll
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\ref\salaEscape.dll
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.pdb
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.Views.dll
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.Views.pdb
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.csproj.AssemblyReference.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfoInputs.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfo.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CoreCompileInputs.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.Manifest.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.xml
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\scopedcss\bundle\salaEscape.styles.css
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.input.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.output.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorCoreGenerate.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.Views.pdb
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.dll
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\ref\salaEscape.dll
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.pdb
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.genruntimeconfig.cache
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CopyComplete
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\Index.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Tutorial.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion1.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion2.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion3.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion4.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\inputfinal.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\appsettings.json
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.exe
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.deps.json
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.json
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.dev.json
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.dll
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\ref\salaEscape.dll
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.pdb
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.Views.dll
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\salaEscape.Views.pdb
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.csprojAssemblyReference.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfoInputs.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfo.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CoreCompileInputs.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.Manifest.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.xml
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\scopedcss\bundle\salaEscape.styles.css
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.input.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.output.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorCoreGenerate.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion1.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion2.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion3.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion4.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\Index.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\inputfinal.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Tutorial.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cs
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.Views.pdb
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.dll
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\ref\salaEscape.dll
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.pdb
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.genruntimeconfig.cache
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CopyComplete
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\appsettings.json
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.exe
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.deps.json
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.json
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.dev.json
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.dll
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\ref\salaEscape.dll
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.pdb
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.Views.dll
+C:\Users\46028491\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.Views.pdb
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.csprojAssemblyReference.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfoInputs.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfo.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CoreCompileInputs.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.Manifest.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.xml
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\scopedcss\bundle\salaEscape.styles.css
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.input.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.output.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorCoreGenerate.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion1.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion2.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion3.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion4.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\Index.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\inputfinal.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Tutorial.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.Views.pdb
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.dll
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\ref\salaEscape.dll
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.pdb
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.genruntimeconfig.cache
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CopyComplete
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\victoria.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\victoria.cshtml.g.cs
+C:\Users\46028491\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Home\test.cshtml.g.cs
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\victoria.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\appsettings.json
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.exe
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.deps.json
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.json
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.dev.json
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.dll
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\ref\salaEscape.dll
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.pdb
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.Views.dll
+C:\Users\sebip\Downloads\salaEscape\bin\Debug\net5.0\salaEscape.Views.pdb
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.csproj.AssemblyReference.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfoInputs.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfo.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CoreCompileInputs.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.Manifest.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.xml
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\scopedcss\bundle\salaEscape.styles.css
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.input.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.output.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorCoreGenerate.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion1.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion2.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion3.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion4.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\Index.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\inputfinal.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\victoria.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Home\test.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Tutorial.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cs
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.Views.pdb
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.dll
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\ref\salaEscape.dll
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.pdb
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.genruntimeconfig.cache
+C:\Users\sebip\Downloads\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CopyComplete
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\appsettings.Development.json
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\appsettings.json
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\salaEscape.exe
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\salaEscape.deps.json
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.json
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\salaEscape.runtimeconfig.dev.json
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\salaEscape.dll
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\ref\salaEscape.dll
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\salaEscape.pdb
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\salaEscape.Views.dll
+D:\DOWNloads D\salaEscape.2\salaEscape\bin\Debug\net5.0\salaEscape.Views.pdb
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.csproj.AssemblyReference.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfoInputs.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.AssemblyInfo.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CoreCompileInputs.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.MvcApplicationPartsAssemblyInfo.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.RazorAssemblyInfo.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.Manifest.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\staticwebassets\salaEscape.StaticWebAssets.xml
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\scopedcss\bundle\salaEscape.styles.css
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.input.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.TagHelpers.output.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.RazorCoreGenerate.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion1.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion2.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion3.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\habitacion4.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\Index.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\inputfinal.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Escape\victoria.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Home\test.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Home\Tutorial.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.RazorTargetAssemblyInfo.cs
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.Views.pdb
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.dll
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\ref\salaEscape.dll
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.pdb
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.genruntimeconfig.cache
+D:\DOWNloads D\salaEscape.2\salaEscape\obj\Debug\net5.0\salaEscape.csproj.CopyComplete
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\web.config
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\appsettings.Development.json
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\appsettings.json
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\salaEscape.deps.json
+C:\Users\Unknow\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\salaEscape.runtimeconfig.json
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\web.config
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\appsettings.Development.json
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\appsettings.json
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\salaEscape.deps.json
+C:\Users\46501954\OneDrive - Asociacion ORT Argentina\ORT_2021\Programacion\Backend\salaEscape\bin\Debug\net5.0\publish\salaEscape.runtimeconfig.json

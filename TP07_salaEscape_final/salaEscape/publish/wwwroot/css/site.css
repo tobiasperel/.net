@@ -1,0 +1,122 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
+
+:root{
+  --amarillo: rgb(209, 155, 7);
+  --negro: rgb(14, 14, 14);
+}
+a.navbar-brand {
+  white-space: normal;
+  text-align: rgb(231, 188, 45);
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: rgb(37, 37, 37);
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  transition: 1s;
+}
+
+.nav-link {
+  color: var(--negro);
+  transition: 0.8s;
+}
+
+.nav-item:hover .nav-link:hover {
+  background-color: rgb(192, 197, 206);
+  color: var(--amarillo);
+  transition: 0.8s;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 18px;
+  height: 100%;
+}
+
+@media (min-width: 425px) {
+  html {
+    font-size: 18px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+  p {
+    font-size: 22px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.box{
+  height: 100%;
+  align-items: center;
+  font-size: 180;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url("../img/fondo.png");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+  background-position:center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+/* Sticky footer styles*/
+.footer {
+  width: 100%;
+  white-space: nowrap;
+  bottom: 0;
+  position: fixed;
+  line-height: 50px; /* Vertically center the text there */
+  
+} 
+
+.Foto {
+  width: 140%;
+}
+
+#foobar{
+  display:none;
+}

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\perel\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\perel\\.nuget\\packages"
+    ]
+  }
+}

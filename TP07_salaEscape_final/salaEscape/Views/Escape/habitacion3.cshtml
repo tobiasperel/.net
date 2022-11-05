@@ -1,0 +1,43 @@
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-md-8">
+        <p class="fade-in-fwd">
+          El número que te dio La Chiqui era el 0.
+          <br>
+          Ya pudiste pasar las dos pruebas anteriores pero esta no será tan fácil. Este personaje es reconocido por
+          estar dividido entre los que realmente lo apoyan y los que creen es un completo fiasco. Como vivis adentro 
+          de un tupper no recordás con claridad quién es, pero generas una idea de quien podría ser ya que por la 
+          foto no es el oso Yogi.
+        </p>
+        <form method="POST" action="@Url.Action("Respuesta","Escape", new{Sala = 3})">
+          <input type="text" class="form-control" name="ans" id="ans" aria-describedby="helpId" autocomplete="off">
+          <small id="helpId" class="form-text text-muted">Nombre del Personaje</small>
+          <button class="btn btn-success submit" onclick='formValidation1(3)'>Enviar</button>
+        </form>
+        <div class="row">
+          @for (int i = 0; i < ViewBag.Pistas.Length; i++)
+          {
+            int imasuno = i + 1;
+            Console.WriteLine(ViewBag.Pistas[i]);
+            string ID = "pista" + (@imasuno).ToString();
+
+            <button value="@ViewBag.Pistas[i]" id=@ID onclick="showAlert(@imasuno);" class="btn btn-info mt-2 mx-2"> Pista
+              @imasuno</button>
+          }
+        </div>
+        <div class="row">
+          @for (int i = 0; i < ViewBag.Pistas.Length; i++)
+          {
+            <div class="alert alert-success alert-dismissible my-2" id="alertbox" role="alert" style="display:none;">
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          }
+        </div>
+    </div>
+    <div class="col-md-4" id="fotuli">
+      <img src="~/img/siluetas/Scaloni_Negro.png" class="" style="width: 100%;"
+        alt="Personaje 3">
+    </div>
+  </div>

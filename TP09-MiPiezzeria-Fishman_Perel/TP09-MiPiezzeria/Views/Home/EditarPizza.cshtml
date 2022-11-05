@@ -1,0 +1,81 @@
+<form method="POST" enctype="multipart/form-data" class="my-form" action='@Url.Action("EditarPizzaForm","Home", new{pizza=ViewBag.Pizza.IdPizza})'>
+  <div class="container">
+    <h1 class="text-center">Agregar Pizza</h1>
+    <ul>
+      <li>
+        <div class="grid grid-2 mt-4">
+          <input type="text" placeholder="@ViewBag.Pizza.Nombre" name="nombre">
+          @{string precio = "$" + ViewBag.Pizza.Precio.ToString();}
+          <input type="number" placeholder="@precio" name="precio">
+        </div>
+      </li>
+      <li>
+        <div class="grid  mt-4">
+          <input type="url" name="foto" placeholder="@ViewBag.Pizza.Foto">
+        </div>
+      </li>
+      <li>
+        <select>
+          @{string [] tamanios = new string[]{"Chica", "Mediana", "Grande"};}
+          @for(int i = 0; i<tamanios.Length;i++){
+            if (tamanios[i]==ViewBag.Pizza.Tamano){
+              <option selected name="tamano" value="@tamanios[i]">@tamanios[i]</option>
+            }
+            else{
+              <option name="tamano" value="@tamanios[i]">@tamanios[i]</option>
+            }
+          }
+        </select>
+      </li>
+      @{
+        if (ViewBag.Ingredientes.Count == 0)
+        {
+          <p class="mt-4">Ups! No hay ingredientes cargados...</p>
+        }
+        else
+        {
+          int colSize = 12 / ViewBag.Ingredientes.Count;
+          string colText = "col-md-" + colSize;
+          if(colSize < 4){colText = "col-md-4";}
+          string widthFoto = (80 / ViewBag.Ingredientes.Count) + "%";
+            <label>Ingredientes:</label>
+            <div class="row justify-content-around mt-4">
+          
+            @for (int i = 0; i < ViewBag.Ingredientes.Count; i++)
+            {
+                bool IngredienteDePizza = false;
+                for(int j = 0; j < ViewBag.Pizza.Ingredientes.Count; j++){
+                    if(ViewBag.Ingredientes[i] == ViewBag.Pizza.Ingredientes[j]){
+                        IngredienteDePizza = true;
+                        break;
+                    }
+                }
+                if(IngredienteDePizza){
+                    <li class="@colText text-center">
+                        <img src="@ViewBag.Ingredientes[i].Foto" width="@widthFoto" />
+                        <p>@ViewBag.Ingredientes[i].Nombre</p>
+                        <input type="checkbox" name="ingrediente" value=@i checked/>
+                    </li>
+                }
+                else{
+                    <li class="@colText text-center">
+                        <img src="@ViewBag.Ingredientes[i].Foto" width="@widthFoto" />
+                        <p>@ViewBag.Ingredientes[i].Nombre</p>
+                        <input type="checkbox" name="ingrediente" value=@i />
+                    </li>
+                }
+                
+            }
+            </div>
+        }
+      }
+      <li>
+        <div class="grid">
+          <a href='@Url.Action("EditarPizzaForm","Home")'>
+            <button class="btn btn-success mt-2" type="submit" value="Send">Enviar</button>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</form>

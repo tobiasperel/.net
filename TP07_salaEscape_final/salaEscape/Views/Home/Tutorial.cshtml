@@ -1,0 +1,34 @@
+@{
+  ViewData["Title"] = "Tutorial";
+}
+
+<div class="container mt-5">
+  <div class="row">
+    <p class="fade-in-fwd col-md-6 mt-5">
+      Bienvenido a Crisis, la mejor sala de escape acerca de famosos. Aquí se reecontrarán con sus famosos
+      más queridos y/o los más odiados. En cada una de las salas vas a tener una descripción del personaje
+      acompañados de pistas y de la silueta del mismo. Si adivinás la persona, se revelará la silueta
+      poniéndose a color y pasarás a la siguiente sala. Suerte, la necesitarás...
+    </p>
+    <img src="~/img/logo.png" class="position-sm-static col-md-6" style="object-fit: contain;" alt="Logo">
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="~/img/siluetas/pregunta.png" style="width: 70%; transform: rotate(30deg);" alt="Signo de Pregunta">
+    </div>
+    <div class="col-md-6  mt-5">
+      <p class="fade-in-fwd">
+        En cada sala encontrarás dos botones y una caja de texto. En la caja pondrás tu respuesta, con el
+        botón ENVIAR enviaras tu respuesta y si es correcta pasarás a la siguiente sala, y si el famoso es
+        muy complicado de descifrar apreta en PISTA para que te de una pista con la que te podras ayudar.
+      </p>
+      <form>
+        <input type="text" name="input" id="tutoInput" class="form-control justify-content-center mb-2"
+          placeholder="Tutorial" autocomplete="off">
+      </form>
+      <button class="btn btn-info mt-2">Pista</button>
+      <button class="btn btn-success submit ml-2 mt-2">Enviar</button>
+      <div id="audioDiv"></div>
+    </div>
+  </div>
+</div>

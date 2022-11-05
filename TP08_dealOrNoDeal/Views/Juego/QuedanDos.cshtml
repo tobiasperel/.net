@@ -1,0 +1,81 @@
+@{
+    ViewData["Title"] = "Eleccion Final";
+}
+<div class="justify-content-center">
+    <h2 class="display-4 texto-deal text-center">ELEGI EL MALENTIN CON EL QUE TE QUEDAS!
+    </h2>
+    <div class="row">
+        <div class="col-md-8 col-12 order-lg-2 mb-4">
+            <div class="row">
+                <div class="col-6">
+                    <a href='@Url.Action("UltimoMaletin","Juego",new{elegido=(ViewBag.maletinExtra)})'><img
+                            class="dark-glow float-right" width="250vw" src=@("../img/maletin/" +
+                            @ViewBag.maletinExtra.ToString() + ".png")>
+                </div>
+                <div class="col-6">
+                    <a href='@Url.Action("UltimoMaletin","Juego",new{elegido=(ViewBag.maletinElegido)})'><img
+                            class="golden-glow float-left" width="250vw" src=@("../img/maletin/" +
+                            @ViewBag.maletinElegido.ToString() + ".png")>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-6 order-lg-1 mt-4">
+            @for (int i = 0; i < ViewBag.nombreCriptos.Length / 2; i++)
+            {
+                bool existe = false;
+                var imageName = ViewBag.nombreCriptos[i].Replace(" ", "_");
+                foreach (var item in ViewBag.IndexYCripto)
+                {
+                    if (item.Value == ViewBag.nombreCriptos[i])
+                    {
+                        existe = true;
+                        break;
+                    }
+
+                }
+                if (existe)
+                {
+                    <div class="row justify-content-center">
+                        <a style="opacity: 40%;"><img class="py-1 cartelWidth" src=@("../img/carteles/" + imageName +
+                        ".png")></a>
+                    </div>
+                }
+                else
+                {
+                    <div class="row justify-content-center">
+                        <img class="py-1 cartelWidth" src=@("../img/carteles/" + imageName + ".png")>
+                    </div>
+                }
+            }
+        </div>
+        <div class="col-md-2 col-6 order-lg-3 mt-4">
+            @for (int i = ViewBag.nombreCriptos.Length / 2; i < ViewBag.nombreCriptos.Length; i++)
+            {
+                bool existe = false;
+                var imageName = ViewBag.nombreCriptos[i].Replace(" ", "_");
+                foreach (var item in ViewBag.IndexYCripto)
+                {
+                    if (item.Value == ViewBag.nombreCriptos[i])
+                    {
+                        existe = true;
+                        break;
+                    }
+
+                }
+                if (existe)
+                {
+                    <div class="row justify-content-center">
+                        <a style="opacity: 40%;"><img class="py-1 cartelWidth" src=@("../img/carteles/" + imageName +
+                        ".png")></a>
+                    </div>
+                }
+                else
+                {
+                    <div class="row justify-content-center">
+                        <img class="py-1 cartelWidth" src=@("../img/carteles/" + imageName + ".png")>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
